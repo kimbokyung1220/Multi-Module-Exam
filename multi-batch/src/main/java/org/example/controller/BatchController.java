@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BatchController {
 
-    @GetMapping("/batch-test")
+    @GetMapping("/")
     public String batchTest() {
         Member member = new Member();
         member.setAge(10);

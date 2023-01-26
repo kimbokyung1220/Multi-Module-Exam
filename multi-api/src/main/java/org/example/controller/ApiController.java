@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ApiController {
     
-    @GetMapping("/api-test")
+    @GetMapping("/")
     public String apiTest() {
         Member member = new Member();
         member.setAge(10);
